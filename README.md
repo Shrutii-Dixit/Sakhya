@@ -10,8 +10,7 @@ A privacy-first platform for reporting harassment and unsafe incidents anonymous
 
 ## 🏠 Planned Live Demo
 
-👉 **[sakhya.vercel.app](https://sakhya.vercel.app)**
-_Planned public demo URL; update once deployment is live._
+`https://sakhya.vercel.app` *(planned public demo URL; update once deployment is live)*
 
 ---
 
@@ -213,12 +212,12 @@ We explicitly designed against these attack vectors:
 | Frontend | React.js | Responsive web app, heatmap rendering, report submission UI |
 | Backend | Node.js (Express) | REST API, report ingestion, validation orchestration |
 | Database | MongoDB | Flexible schema for incident reports, clusters, zone scores |
-| Maps | Google Maps API / Mapbox GL | Heatmap visualization, geo-tagging, zone rendering |
+| Maps | Google Maps API or Mapbox GL | Heatmap visualization, geo-tagging, zone rendering (implementation selectable) |
 | AI / NLP | Python (FastAPI microservice) | Report validation, spam detection, credibility scoring |
 | NLP Model | spaCy + custom classifier | Text classification, gibberish detection |
 | Image Processing | Sharp (Node.js) | Server-side EXIF metadata stripping |
 | Auth (Admin only) | JWT + bcrypt | Secure admin dashboard access |
-| Hosting | Vercel (Frontend) + Render (Backend) | Planned demo hosting stack (production deployment may vary) |
+| Planned Hosting (Demo) | Vercel (Frontend) + Render (Backend) | Planned demo deployment stack (production hosting may vary) |
 | Encryption | AES-256 (at-rest) | Report data encryption in MongoDB |
 
 ---
