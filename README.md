@@ -10,7 +10,7 @@ A privacy-first platform for reporting harassment and unsafe incidents anonymous
 
 ## 🏠 Live Demo
 
-👉 **[sakhya.vercel.app](https://sakhya.vercel.app)** *(replace with actual URL)*
+👉 **link to be pasted
 
 ---
 
