@@ -10,7 +10,7 @@ A privacy-first platform for reporting harassment and unsafe incidents anonymous
 
 ## 🏠 Live Demo
 
-👉 **[sakhya.vercel.app](https://sakhya.vercel.app)** *(replace with actual URL)*
+👉 **[sakhya.vercel.app](https://sakhya.vercel.app)**
 
 ---
 
@@ -217,7 +217,7 @@ We explicitly designed against these attack vectors:
 | NLP Model | spaCy + custom classifier | Text classification, gibberish detection |
 | Image Processing | Sharp (Node.js) | Server-side EXIF metadata stripping |
 | Auth (Admin only) | JWT + bcrypt | Secure admin dashboard access |
-| Hosting | Vercel (Frontend) + Render (Backend) | Fast deployment, free tier for demo |
+| Hosting | Vercel (Frontend) + Render (Backend) | Fast deployment (demo/reference deployment setup) |
 | Encryption | AES-256 (at-rest) | Report data encryption in MongoDB |
 
 ---
